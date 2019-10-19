@@ -10,7 +10,7 @@
 	</context-param>
 	<context-param>
 		<param-name>password</param-name>
-		<param-value>ZxH06</param-value>
+		<param-value>LSY</param-value>
 	</context-param>
 
 	<servlet>
@@ -18,7 +18,7 @@
 		<servlet-class>sopo.cn.servlet20191017.Servlet201910171625</servlet-class>
 		<init-param>
 			<param-name>initPara1</param-name>
-			<param-value>WZY</param-value>
+			<param-value>LSY</param-value>
 		</init-param>
 		<init-param>
 			<param-name>initPara2</param-name>
