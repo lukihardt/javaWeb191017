@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	
+	<context-param>
+		<param-name>userName</param-name>
+		<param-value>ADMIN</param-value>
+	</context-param>
+	<context-param>
+		<param-name>password</param-name>
+		<param-value>ZxH06</param-value>
+	</context-param>
+
+	<servlet>
+		<servlet-name>Servlet201910171625</servlet-name>
+		<servlet-class>sopo.cn.servlet20191017.Servlet201910171625</servlet-class>
+		<init-param>
+			<param-name>initPara1</param-name>
+			<param-value>WZY</param-value>
+		</init-param>
+		<init-param>
+			<param-name>initPara2</param-name>
+			<param-value>LSY</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Servlet201910171625</servlet-name>
+		<url-pattern>/Servlet201910171625</url-pattern>
+	</servlet-mapping>
+
+</web-app>
