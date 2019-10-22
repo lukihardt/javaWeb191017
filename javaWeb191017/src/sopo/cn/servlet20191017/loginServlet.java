@@ -1,6 +1,6 @@
 package sopo.cn.servlet20191017;
 
-import java.io.IOException;
+import java.io.IOException; 
 import java.io.PrintWriter;
 
 import javax.servlet.ServletContext;
@@ -30,10 +30,12 @@ public class loginServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-		ServletContext servletContext = getServletContext();
 		response.setContentType("text/html;charset=UTF-8");
-		request.setCharacterEncoding("UTF-8");
+//		response.setCharacterEncoding("UTF-8");
+		response.getWriter().append("Served at: ").println(request.getContextPath()+"<br>");
+		ServletContext servletContext = getServletContext();
+		
+		response.setCharacterEncoding("UTF-8");
 		PrintWriter out = response.getWriter();
 		
 		out.println("");
@@ -46,6 +48,7 @@ public class loginServlet extends HttpServlet {
 		
 		out.println("password: " + pwd);
 		System.out.println("password: " + pwd);
+		out.println("<br>");
 		
 		String usnData = servletContext.getInitParameter("userName");
 		String pwdData = servletContext.getInitParameter("password");
@@ -53,7 +56,7 @@ public class loginServlet extends HttpServlet {
 		System.out.println(usnData + "@" + pwdData);
 		
 		if (usnData.equals(usn) && pwdData.equals(pwd)) {
-			out.println("loginSuccess!登陆成功");
+			out.println("登陆成功!");
 		}
 	}
 
