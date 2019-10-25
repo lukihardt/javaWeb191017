@@ -4,12 +4,9 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>lession14Forward.jsp</title>
+<title>showBoughtCar.jsp</title>
 </head>
 <body>
-	<form action="ForwardPreAxis.jsp">
-		<input type="text" name="reqAttr"/>
-		<input type="submit">
-	</form>
+	
 </body>
 </html>
