@@ -4,8 +4,8 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ForwardPreAxis.jsp</title>
-<meta http-equiv="refresh" content="5; url=http://localhost:8080/javaWeb191017/ForwardAxis.jsp?reqAttr=<%= request.getParameter("reqAttr")%>">
+<title>ForwardPreCore.jsp</title>
+<meta http-equiv="refresh" content="5; url=http://localhost:8080/javaWeb191017/ForwardCore.jsp?reqAttr=<%= request.getParameter("reqAttr")%>">
 </head>
 <body>
 5秒后进行跳转...
