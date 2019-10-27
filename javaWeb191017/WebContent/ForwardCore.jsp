@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>ForwardAxis.jsp</title>
+<title>ForwardCore.jsp</title>
 </head>
 <body>
 	<%
